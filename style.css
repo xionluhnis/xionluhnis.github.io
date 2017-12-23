@@ -57,10 +57,10 @@ h1 {
 .pub, .pub.top {
   background-position: top center !important;
 }
-.pub.center {
+.pub.mid {
   background-position: center center !important;
 }
-.pub.bottom {
+.pub.bot {
   background-position: bottom center !important;
 }
 .pub[href$=color-contoning] {

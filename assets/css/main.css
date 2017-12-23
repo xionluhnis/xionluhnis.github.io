@@ -11,7 +11,7 @@ a:hover {
     color: #55BBFF;
 }
 .logo {
-    background: url(../images/logo.jpg) no-repeat center center;
+    background: url(../img/logo.jpg) no-repeat center center;
     background-size: 105%;
     display: inline-block;
     width: 200px;
@@ -100,7 +100,7 @@ body {
     color: white;
 }
 #content li {
-    list-style: url(../images/arrow.png);
+    list-style: url(../img/arrow.png);
     font-size: 0.8em;
 }
 #content h1, #content h2, #content h3, #content h4, #content h5, #content h5 {

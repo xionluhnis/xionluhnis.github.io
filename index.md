@@ -1,5 +1,7 @@
 ---
-layout: default
+title: Homepage of Alexandre Kaspar
+custom_css: index.css
+class: index
 ---
 Currently, I am a PhD student in the [Computational Fabrication Group](http://cfg.mit.edu)
 of Professor [Wojciech Matusik](http://people.csail.mit.edu/wojciech/).

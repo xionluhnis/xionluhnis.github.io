@@ -54,23 +54,29 @@ h1 {
 .pub {
   min-height: 150px;
 }
+.pub, .pub.top {
+  background-position: top center !important;
+}
+.pub.center {
+  background-position: center center !important;
+}
+.pub.bottom {
+  background-position: bottom center !important;
+}
 .pub[href$=color-contoning] {
   background: url(publications/color-contoning/ccf3.jpg) rgba(255, 255, 255, 0.5);
 }
 .pub[href$=foundry] {
   background: url(publications/foundry/highlight.jpg) rgba(255, 255, 255, 0.5);
-  background-position: top center !important;
 }
 .pub[href$=gradient-based-2d3d]{
   background: url(publications/gradient-based-2d3d/highlight.jpg) rgba(255, 255, 255, 0.5);
-  background-position: top center !important;
 }
 .pub[href$=self-tuning-texture-optimization]{
   background: url(publications/self-tuning-texture-optimization/highlight.jpg) rgba(255, 255, 255, 0.5);
 }
 .pub[href$=interactive-design-exploration]{
   background: url(publications/interactive-design-exploration/highlight.png) rgba(255, 255, 255, 0.5);
-  background-position: bottom center !important;
 }
 .pub[href$=rtime-deform-constrained-meshes]{
   background: url(publications/rtime-deform-constrained-meshes/highlight.png) rgba(255, 255, 255, 0.5);

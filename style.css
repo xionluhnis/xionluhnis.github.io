@@ -53,6 +53,7 @@ h1 {
 /** Each publication highlight */
 .pub {
   min-height: 150px;
+  margin-bottom: 75px;
 }
 .pub, .pub.top {
   background-position: top center !important;

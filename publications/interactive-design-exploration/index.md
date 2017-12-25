@@ -19,8 +19,8 @@ We address these shortcomings and present a computational framework for interact
 Based on this algorithm, we develop a system that allows the user to explore designs satisfying geometric constraints. Our system offers full control over the exploration process, by providing direct access to the specification of the design space. At the same time, the complexity of the underlying optimization is hidden from the user, who communicates with the system through intuitive interfaces.
 
 ## Links
-* [Paper](paper.pdf)
-* [Video](video.mpg)
+* [Paper](https://drive.google.com/open?id=10q2JLEMuqSn3bw14W1WSLR_B6Blqxaih)
+* [Video](https://drive.google.com/open?id=1WLRi_OfvQCCUJUf3eG4dUvtWu-762X1o)
 * [Youtube](https://www.youtube.com/watch?v=gh-OAmWPaps)
 
 

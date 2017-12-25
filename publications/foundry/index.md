@@ -24,7 +24,7 @@ We also describe how to stage the evaluation of the final material definition wh
 
 ## Links
 * [Project](http://vidimce.org/publications/foundry/)
-* [Paper preprint](uist2016_foundry.pdf)
+* [Paper preprint](https://drive.google.com/open?id=14JmAaM1ai6rOKqx4B7A4dRMDYIrXJfu2)
 * Press: [CSAIL News](https://www.csail.mit.edu/designing_for_3D_printing),
   [MIT News](http://news.mit.edu/2016/designing-3-d-printing-foundry-1011),
   [Engadget](https://www.engadget.com/2016/10/11/mit-foundry-software-the-photoshop-of-3d-printing/),

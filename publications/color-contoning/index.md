@@ -31,4 +31,4 @@ arrangement, calculation of ink concentration, and 3D dot gain. We use a
 custom 3D printer to fabricate and validate our results.
 
 ## Links
-* [Paper preprint](Color3DP.pdf)
+* [Paper preprint](https://drive.google.com/open?id=1XDkpzDmMKyye_Ztdquun5pqrbIP1WfA5)

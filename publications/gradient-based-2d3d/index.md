@@ -28,7 +28,6 @@ video.
 
 # Links
 
-* [Paper](2d3dconv.pdf)
+* [Paper](https://drive.google.com/open?id=1ggBNIWD8-_oQlM3RSkg5PjxyjBupol09)
 * [QCRI Project](http://ds.qcri.org/index.php/cloud-based-multimedia-content-distribution-and-protection-platform/21-sub-project/55-dgc)
 * [Demo](http://v3v.qcri.org/)
-* More to come!

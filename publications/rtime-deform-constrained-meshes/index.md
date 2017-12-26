@@ -29,7 +29,7 @@ Our GPU implementation significantly outperforms the CPU version, allowing
 realtime handle-based deformation for large constrained meshes.
 
 ## Links
-* [Paper](paper.pdf)
-* [Presentation](slides.pdf)
-* [Video](video.mov)
+* [Paper](https://drive.google.com/open?id=1BHk4lLDnaf2eZm6yZy3AHOH19qxn-zt4)
+* [Presentation](https://drive.google.com/open?id=1k4o5o2KGDF_VK4bX8Jgw41sII3mF-XB-)
+* [Video](https://drive.google.com/open?id=1-mssye4CEwrU91MZHRnxDeGSHuoOBRrE)
 * [Youtube](http://www.youtube.com/watch?v=k0ACkSBQ_aM)

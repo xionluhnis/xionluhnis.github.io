@@ -36,7 +36,7 @@ We demonstrate the versatility and robustness of our completely automatic approa
 of challenging high-resolution texture exemplars.
 
 ## Links
-* [Paper](paper.pdf)
-* [Supplementary Material](supplementary/index.html) ([zip](supplementary.zip))
-* [Slides](slides.pptx)
-* [Code (v2)](code-v2.zip), ([v1](code-v1.zip))
+* [Paper](https://drive.google.com/open?id=1ZfpOaUYtNsZvN95LLiANhtuJyCtxparN)
+* [Supplementary Material]() ([zip](https://drive.google.com/open?id=1pPsAtzfucSj4SuVJoYcH1fOYcw4BXabT))
+* [Slides](https://drive.google.com/open?id=1ALrpxSZ2sj35uElIxwi1XFjTtxDUqW3B)
+* [Code (v2)](https://drive.google.com/open?id=1RuOr7WnzzYfHlAOUQv9PiW7mdhchkeQp), ([v1](https://drive.google.com/open?id=1KZA_oSjMzoLV6Wc3Op3QobU5qA3hqUy5))

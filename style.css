@@ -1,51 +1,51 @@
 /** Style **/
 html {
   margin: 10px;
-  background: #F2F2F2;
+  background: #F2F2F2 url(imgs/pattern.png);
   font-family: 'Open Sans', sans-serif;
 }
 body {
-  background: white url(imgs/logo.png) top right no-repeat; /*#E7A200*/
+  background: white;
   border: 5px solid white;
   color: #444;
   padding: 50px;
-  margin: 10px;
+  margin: 10px auto;
   font-size: 1.3em;
+  max-width: 800px;
   min-height: 400px;
   box-shadow: 0 0 15px #ddd;
 }
+a {
+  color: #0091ff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a.pub:hover span {
+  text-decoration: none;
+  background: #0091ffb3;
+  color: white;
+}
+a:not([href]){
+  color: gray;
+}
+a:not([href]):hover {
+  text-decoration: line-through;
+}
 h1 {
-  font-size: 3em;
+  font-size: 2.5em;
   font-weight: bold;
   color: black;
   text-shadow: 1px 1px 1px gray;
 }
 .pub, .project, .week {
-  color: white;
-  text-shadow: 1px 0 5px black;
   margin: 15px 0;
-  padding: 35px;
   display: block;
   border: 5px solid #efefef;
   background-size: 100% !important;
   background-position: center center !important;
   background-blend-mode: screen;
-}
-.pub::before, .project::before, .week::before {
-  text-transform: uppercase;
-  padding: 15px;
-  margin-right: 15px;
-  border: 5px solid rgba(240, 240, 240, 0.5);
-  border-radius: 50px;
-}
-.pub::before {
-  content: 'P':
-}
-.project::before {
-  content: 'L';
-}
-.week::before {
-  content: attr(href);
 }
 .pub:hover, .project:hover, .week:hover {
   background-blend-mode: normal;
@@ -54,6 +54,7 @@ h1 {
 .pub {
   min-height: 150px;
   margin-bottom: 75px;
+  padding: 20px 35px;
 }
 .pub, .pub.top {
   background-position: top center !important;
@@ -63,6 +64,9 @@ h1 {
 }
 .pub.bot {
   background-position: bottom center !important;
+}
+.pub[href*=crowdensembles] {
+  background: url(publications/crowd-guided-ensembles/highlight.jpg) rgba(255, 255, 255, 0.5);
 }
 .pub[href$=color-contoning] {
   background: url(publications/color-contoning/ccf3.jpg) rgba(255, 255, 255, 0.5);
@@ -82,13 +86,28 @@ h1 {
 .pub[href$=rtime-deform-constrained-meshes]{
   background: url(publications/rtime-deform-constrained-meshes/highlight.png) rgba(255, 255, 255, 0.5);
 }
+.pub span {
+  background: rgba(255, 255, 255, 0.7);
+}
 .pub .title {
-  font-size: 2em;
+  font-size: 1.3em;
   display: block;
+  margin: auto -35px;
+  padding: 10px 35px;
+}
+.pub .authors, .pub .venue {
+  display: block;
+  margin: auto -35px;
+  padding: 0 35px;
 }
 .pub .authors {
   color: black;
-  text-shadow: 1px 1px 2px white;
+}
+.pub .venue {
+  color: gray;
+}
+.pub span:last-child {
+  padding-bottom: 10px !important;
 }
 .pub:hover .authors, .pub:hover .venue {
   text-decoration: none;
@@ -96,9 +115,15 @@ h1 {
 
 /** Each project highlight */
 .project {
+  color: black;
+  font-weight: bold;
   display: inline-block;
   background-size: cover !important;
-  min-width: 200px;
+  padding: 20px;
+  margin: 10px auto;
+}
+.project.rprpm {
+  background: url(imgs/gears.png) rgba(255, 255, 255, 0.5);
 }
 .project.htmaa {
   background: url(imgs/bird.png) rgba(255, 255, 255, 0.5);
@@ -198,25 +223,6 @@ video {
   border: 5px solid white;
   box-shadow: 0 0 15px #ddd;
   max-width: 100%;
-}
-a {
-  color: #0091ff;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-}
-a.pub:hover {
-  text-decoration: none;
-}
-a.pub:hover .title {
-  text-decoration: underline;
-}
-a:not([href]){
-  color: gray;
-}
-a:not([href]):hover {
-  text-decoration: line-through;
 }
 a.header {
   font-weight: bold;

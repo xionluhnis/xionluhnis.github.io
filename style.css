@@ -133,6 +133,8 @@ h1 {
   background-size: cover !important;
   padding: 20px;
   margin: 10px auto;
+  min-width: 50px;
+  text-align: center;
 }
 .project.rprpm {
   background: url(imgs/gears.png) rgba(255, 255, 255, 0.5);
@@ -145,6 +147,15 @@ h1 {
 }
 .project.scholar {
   background: url(imgs/scholar.png) rgba(255, 255, 255, 0.5);
+}
+.project.cv {
+  background: url(imgs/cv.jpg) rgba(255, 255, 255, 0.5);
+}
+.project.thesis {
+  background: url(imgs/thesis.jpg) rgba(255, 255, 255, 0.5);
+}
+.project.thesis-slides {
+  background: url(imgs/thesis-slides.jpg) rgba(255, 255, 255, 0.5);
 }
 .separator {
   display: block;
